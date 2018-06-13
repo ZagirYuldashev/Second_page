@@ -1,0 +1,53 @@
+body{
+	font-family: Arial; sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	
+	height: 80px;
+    background: #ffffff;
+	
+}
+.container{
+	width: 1265px;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-top: 20px;
+	float: left;
+
+}
+nav{
+	float: right;
+	margin-top: 20px;
+}	
+.menu{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 49px;
+
+}
+.menu li a{
+	color: #7a8893;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+
+
+}
+section{
+	background: url(../img/1.jpg) no-repeat center top/cover;
+	height: 600px;
+
+}
