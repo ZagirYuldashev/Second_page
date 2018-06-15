@@ -2,14 +2,16 @@ body{
 	font-family: Arial; sans-serif;
 	padding: 0px;
 	margin: 0px;
+
 }
 div{
 	box-sizing: border-box;
 }
 header{
 	
-	height: 80px;
+    height: 50px;
     background: #ffffff;
+    display: block;
 	
 }
 .container{
@@ -21,10 +23,12 @@ header{
 	margin-top: 20px;
 	float: left;
 
+
 }
 nav{
 	float: right;
 	margin-top: 20px;
+
 }	
 .menu{
 	padding: 0px;
@@ -36,6 +40,7 @@ nav{
 	float: left;
 	display: block;
 	margin-right: 49px;
+	font-weight: bold;
 
 }
 .menu li a{
@@ -43,19 +48,92 @@ nav{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 13px;
+	font-weight: bold;
 
 
 }
-section{
+.background2{
 	background: url(../img/1.jpg) no-repeat center top/cover;
 	height: 600px;
-
+	display: block;
+	
 }
-.titles_first{
+
+.titles h1{
 	font-size: 24px;
 	color: #222223;
+	font-weight: bold;
+	display: block;
+	padding-top: 80px;
+
 }
-.titles h1{
+.titles  h2{
 	font-size: 48px;
 	color: #222223;
+	font-weight: bold;
+
+}
+.titles p{
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+/*.button li {
+	background: #136764;
+	color: #ffffff;
+	border-radius: 3px;
+	display: block;
+	width: 170px;
+	padding:20px 0;
+	margin-left: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}*/
+.button{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+
+}
+.button li{
+	float: left;
+	display: block;
+	margin-right: 49px;
+	font-weight: bold;
+
+}
+.button1 a{
+	background: #136764;
+	color: #ffffff;
+	border-radius: 3px;
+	display: block;
+	width: 170px;
+	padding:20px 0;
+	margin-left: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.button2 a{
+	background-color: RGB(0, 0, 0)
+	opacity:0.5;
+	border:2px solid #ffffff;
+	color: #ffffff;
+	border-radius: 3px;
+	display: block;
+	width: 170px;
+	padding:20px 0;
+	margin-left: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
 }
