@@ -254,3 +254,27 @@ nav{
 	text-align: center;
 
 }
+.background5{ 
+	height: 740px;
+	background:#f8fafb; 
+	display: block;
+
+}
+form{
+	text-align: center;
+	margin: 10px;
+}
+}
+input[type=text]{
+	text-align:center;
+	margin: 10px;
+
+}
+footer .background6{
+	background: #2a2f33;
+	height: 140px;
+}
+.left{	
+	margin: 40px;
+	float: left;
+}
